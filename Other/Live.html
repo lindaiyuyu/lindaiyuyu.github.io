@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 浏览器标签上显示的网站标题 -->
+    <title>直播使用说明</title>
+    <!-- 样式文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="./static/style.css?v=1.2.0">
+    <link rel="stylesheet" href="./static/APlayer-1.10.1/dist/APlayer.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-11 card">
+                <!-- 大标题 -->
+                <h1>直播及多开使用说明</h1>
+                <!-- 标题下的一段话 -->
+                <h2>自动点击计时器</h2>
+                <p>　　该选项支持 《OnlyStopWatch》秒表计时软件，支持自动复位，自动计时，通关自动暂停，支持3种延迟方式。请在托盘菜单中选择相应选项</p>
+
+                <h2>多开游聚，不涉及直播</h2>
+                <p>　　1. 唯一的前提是确保多个账号均已授权。
+                <br>　　2. 辅助下载后直接运行，无需手动干预，辅助会显示在先进入房间的窗口上方</p>
+
+                <h2>直播且单开</h2>
+                <p>　　1. 辅助下载后直接运行
+                <br>　　2. 若使用OBS-Studio，请直接跳到《直播软件操作》
+                <br>　　3. 若使用 抖音直播伴侣，请先用鼠标右键点击辅助右下角托盘图标，在弹出的菜单中找到并勾选《打开直播支持》，然后跳到《直播软件操作》</p>
+
+                <h2>双开游聚，且双窗口直播</h2>
+                <p>　　1. 下载后，请复制出2个辅助复件到你的目录下，分别命名为 《左以及你的UID》《右以及你的另一个UID》，如《左1234567》《右7654321》。UID为7位数字
+                <br>　　2. 分别运行左右2个辅助，(左右辅助默认开启直播支持，其中，为了避免重复点击计时软件，右辅助默认不开启自动点击计时器)
+                <br>　　3. 请跳到《直播软件操作》</p>
+
+                <h2>直播软件操作</h2>
+                <h4>　Tips: 有多开需求的情况下，建议单开、多开分别配置不同的场景，便于快速切换。</h4>
+                <h4>　如果看了以下说明还是不能正常显示，请联系我索要操作步骤视频！</h4>
+
+                <h3>抖音直播伴侣</h3>
+                <p>　　1. 添加素材 → 游戏进程 → 选择对应的游戏进程 [X-Zone.exe]:西游释厄传(*)，多开需多次添加
+                <br>　　2. 添加素材 → 窗口 → [西游释厄传_Ultimate.exe] (如果是多开，请选择对应的进程窗口名称，如《左1234567》《右7654321》) → 点击高级设置 → 绿幕抠图 → 将 相似度 拉到最左边即可。
+                <br>　　3. 此时在预览中可以看到，辅助窗口的背景颜色为不透明的黑色，接下来点击辅助素材 → 在高级设置 → 绿幕抠图 → 将 相似度 拉到最左边即可。
+                <br>　　4. 现在可以在预览窗口中看到，游戏和辅助信息都已经正常显示，按照你自己的习惯，拖放到适合的大小和位置。</p>
+
+                <h3>OBS-Studio</h3>
+                <p>　　1. 来源 --> 添加游戏源 --> 模式 > 采集特定窗口 --> 窗口 -> [X-Zone.exe]:西游释厄传(*) --> 其他默认，直接点击确定
+                <br>　　2. 来源 --> 添加窗口采集 --> 窗口 -> [西游释厄传_Ultimate.exe] (如果是多开，请选择对应的进程窗口名称，如《左1234567》《右7654321》) --> 其他默认，直接点击确定
+                <br>　　3. 此时在预览中可以看到，辅助窗口的背景颜色为不透明的黑色，接下来进行下一步
+                <br>　　4. 点击上一步中添加的条目 --> 点击滤镜 --> 点击加号+ --> 选择 色值 确定 --> 在 关键的颜色类型中 下拉列表中选择 自定义颜色 --> 点击选择颜色，在弹出的颜色选择器中点击左上角的黑色后确定
+                <br>　　5. 现在可以在预览窗口中看到，游戏和辅助信息都已经正常显示，按照你自己的习惯，拖放到适合的大小和位置。</p>
+                <img src="./img/Live.jpg" />
+<p></p>
+<p></p>
+                </div>
+
+                <footer>
+                </footer>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- aplayer -->
+    <div id="aplayer-fixed" class="aplayer"></div>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./static/APlayer-1.10.1/dist/APlayer.min.js"></script>
+    <script src="./static/Meting.min.js"></script>
+    <!-- end_aplayer -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./static/layer-v3.5.1/layer/layer.js"></script>
+
+    <script src="./static/main.js"></script>
+
+</html>
