@@ -1,6 +1,6 @@
 ## README
 
-### [点我直接下载](https://gitee.com/lindaiyuyu/Game_key/raw/gh-pages/西游释厄传_Ultimate.zip)　　[《防闪退版本下载》](https://jihulab.com/lindaiyu/Game_key/-/raw/gh-pages/西游释厄传_防闪退.zip)
+### [点我直接下载](https://gitee.com/lindaiyuyu/Game_key/raw/gh-pages/西游释厄传_Ultimate.zip)　　<a href="https://jihulab.com/lindaiyu/Game_key/-/raw/gh-pages/西游释厄传_防闪退.zip">《防闪退版本下载》</a>
 
 ### [查看更新日志](Other/Update.md)
 
