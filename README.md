@@ -1,11 +1,12 @@
 ## README
 
-### [点我直接下载](https://gitee.com/lindaiyuyu/Game_key/raw/gh-pages/西游释厄传_Ultimate.zip)　　<a href="https://jihulab.com/lindaiyu/Game_key/-/raw/gh-pages/西游释厄传_防闪退.zip">《防闪退版本下载》</a>
+### [点我直接下载](https://gitee.com/lindaiyuyu/Game_key/raw/gh-pages/西游释厄传_Ultimate.zip)
 
-### [查看更新日志](Other/Update.md)
+### [防闪退版本下载](https://jihulab.com/lindaiyu/Game_key/-/raw/gh-pages/西游释厄传_防闪退.zip)
 
-### [波动配套工具下载](https://gitee.com/lindaiyuyu/Game_key/raw/gh-pages/波动配套工具/WASDJKLI-集气O.zip) 　　[防掉线补丁下载](https://gitee.com/lindaiyuyu/Game_key/raw/gh-pages/Other/Online.zip) 
+### [波动配套工具下载](https://gitee.com/lindaiyuyu/Game_key/raw/gh-pages/波动配套工具/WASDJKLI-集气O.zip) 
 
+### [防掉线补丁下载](https://gitee.com/lindaiyuyu/Game_key/raw/gh-pages/Other/Online.zip) 
 
 ## 购买方式
 - **付款前请联系我**，并提供 **UID、所需功能**，UID为7位数字 
